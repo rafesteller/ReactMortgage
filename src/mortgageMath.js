@@ -19,7 +19,7 @@ export function amortization_table(due, balance, interest, ...args) {
         console.log(args)
         let tot_int = 0;
         let tot_mort = 0;
-        if (args.length == 3) {
+        if (args.length === 3) {
             month = args[0]
             tot_int = args[1]
             tot_mort = args[2]
@@ -39,7 +39,8 @@ export function amortization_table(due, balance, interest, ...args) {
                     amortization: m_amortization,
                     balance: balance,
                     tot_int: tot_int,
-                    tot_mort: tot_mort
+                    tot_mort: tot_mort,
+                    tot_cost: tot_mort + tot_int
                 }
             )
             /*
