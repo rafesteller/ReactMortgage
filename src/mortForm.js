@@ -1,6 +1,8 @@
 import React from 'react';
 import { monthCost, amortization_table} from './mortgageMath';
 import { GraphMort } from './graphMort';
+import { TableMort } from './tableMort';
+
 
 export class MortForm extends React.Component {
     constructor(props){
@@ -94,6 +96,35 @@ export class MortForm extends React.Component {
 
     }
 
+
+    getTable() {
+        if (this.state.submitted) {
+            return (
+                <div>
+                    {["tot_cost", "tot_int", "tot_mort"].map((row) => {
+                        return (
+
+                            <TableMort
+                                mortTables={this.state.mort_tables}
+                                descriptions={this.state.descriptions}
+                                tableRows={this.state.graphYears}
+                                dataKey={row}
+                            />
+
+                        );
+                    })}
+                    
+                </div>
+            )
+        } else {
+            return (
+            <a>
+            </a>
+            )
+        }
+
+    }
+
     
     
 
@@ -121,6 +152,9 @@ export class MortForm extends React.Component {
             </form>
             <div>
                 {this.getGraph()}
+            </div>
+            <div>
+                {this.getTable()}
             </div>
           </div>
         );
