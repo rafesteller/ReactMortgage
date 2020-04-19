@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mort/static/css/main.ccea3b94.chunk.css",
-    "main.js": "/mort/static/js/main.4f25f969.chunk.js",
-    "main.js.map": "/mort/static/js/main.4f25f969.chunk.js.map",
-    "runtime-main.js": "/mort/static/js/runtime-main.54bbd163.js",
-    "runtime-main.js.map": "/mort/static/js/runtime-main.54bbd163.js.map",
-    "static/js/2.b26adf55.chunk.js": "/mort/static/js/2.b26adf55.chunk.js",
-    "static/js/2.b26adf55.chunk.js.map": "/mort/static/js/2.b26adf55.chunk.js.map",
-    "index.html": "/mort/index.html",
-    "precache-manifest.26e6486fb35226347f77c27e3f683465.js": "/mort/precache-manifest.26e6486fb35226347f77c27e3f683465.js",
-    "service-worker.js": "/mort/service-worker.js",
-    "static/css/main.ccea3b94.chunk.css.map": "/mort/static/css/main.ccea3b94.chunk.css.map",
-    "static/js/2.b26adf55.chunk.js.LICENSE.txt": "/mort/static/js/2.b26adf55.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/mort/static/media/logo.5d5d9eef.svg"
+    "main.css": "/ReactMortgage/static/css/main.ccea3b94.chunk.css",
+    "main.js": "/ReactMortgage/static/js/main.4f25f969.chunk.js",
+    "main.js.map": "/ReactMortgage/static/js/main.4f25f969.chunk.js.map",
+    "runtime-main.js": "/ReactMortgage/static/js/runtime-main.7dd02b71.js",
+    "runtime-main.js.map": "/ReactMortgage/static/js/runtime-main.7dd02b71.js.map",
+    "static/js/2.b26adf55.chunk.js": "/ReactMortgage/static/js/2.b26adf55.chunk.js",
+    "static/js/2.b26adf55.chunk.js.map": "/ReactMortgage/static/js/2.b26adf55.chunk.js.map",
+    "index.html": "/ReactMortgage/index.html",
+    "precache-manifest.4ad61e4d4815c8fd378fd201f595b481.js": "/ReactMortgage/precache-manifest.4ad61e4d4815c8fd378fd201f595b481.js",
+    "service-worker.js": "/ReactMortgage/service-worker.js",
+    "static/css/main.ccea3b94.chunk.css.map": "/ReactMortgage/static/css/main.ccea3b94.chunk.css.map",
+    "static/js/2.b26adf55.chunk.js.LICENSE.txt": "/ReactMortgage/static/js/2.b26adf55.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ReactMortgage/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.54bbd163.js",
+    "static/js/runtime-main.7dd02b71.js",
     "static/js/2.b26adf55.chunk.js",
     "static/css/main.ccea3b94.chunk.css",
     "static/js/main.4f25f969.chunk.js"
